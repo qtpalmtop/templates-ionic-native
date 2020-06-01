@@ -1,7 +1,7 @@
 {
-  "name": "${plugin_id}",
-  "version": "1.0.0",
-  "description": "Ionic Custom Native - Native plugins for ionic apps",
+  "name": "{{plugin_id}}",
+  "version": "{{plugin_version}}",
+  "description": "{{plugin_description}}",
   "module": "index.js",
   "scripts": {
     "test": "echo ‘Error: no test specified’ && exit 1"
