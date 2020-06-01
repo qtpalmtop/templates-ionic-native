@@ -26,9 +26,9 @@ var {{plugin_name}} = /** @class */ (function (_super) {
   }
   {{plugin_name}}.prototype.show = function () { return cordova(this, "show", { "sync": true }, arguments); };
   {{plugin_name}}.plugin_id = "{{plugin_name}}";
-  {{plugin_name}}.plugin = "cordova-plugin-{{plugin_id.replace('-native', '')}}";
+  {{plugin_name}}.plugin = "{{cordova_plugin_id}}";
   {{plugin_name}}.pluginRef = "{{plugin_name}}";
-  {{plugin_name}}.repo = "https://github.com/apache/cordova-plugin-{{plugin_id.replace('-native', '')}}";
+  {{plugin_name}}.repo = "{{plugin_github}}";
   {{plugin_name}}.platforms = ["Amazon Fire OS", "Android", "iOS", "Windows"];
   {{plugin_name}} = __decorate([
     Injectable()

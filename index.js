@@ -19,9 +19,9 @@ var {{plugin_name}}Original = /** @class */ (function (_super) {
     }
     {{plugin_name}}Original.prototype.show = function () { return cordova(this, "show", { "sync": true }, arguments); };
     {{plugin_name}}Original.plugin_id = "{{plugin_name}}";
-    {{plugin_name}}Original.plugin = "cordova-plugin-{{plugin_id.replace('-native', '')}}";
+    {{plugin_name}}Original.plugin = "{{cordova_plugin_id}}";
     {{plugin_name}}Original.pluginRef = "{{plugin_name}}";
-    {{plugin_name}}Original.repo = "https://github.com/apache/{{plugin_id.replace('-native', '')}}";
+    {{plugin_name}}Original.repo = "{{plugin_github}}";
     {{plugin_name}}Original.platforms = ["Amazon Fire OS", "Android", "iOS", "Windows"];
     return {{plugin_name}}Original;
 }(IonicNativePlugin));
