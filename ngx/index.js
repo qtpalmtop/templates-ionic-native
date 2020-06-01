@@ -19,20 +19,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { Injectable } from '@angular/core';
 import { IonicNativePlugin, cordova } from '@ionic-native/core';
-var ${plugin_name} = /** @class */ (function (_super) {
-  __extends(${plugin_name}, _super);
-  function ${plugin_name}() {
+var {{plugin_name}} = /** @class */ (function (_super) {
+  __extends({{plugin_name}}, _super);
+  function {{plugin_name}}() {
     return _super !== null && _super.apply(this, arguments) || this;
   }
-  ${plugin_name}.prototype.show = function () { return cordova(this, "show", { "sync": true }, arguments); };
-  ${plugin_name}.plugin_id = "${plugin_name}";
-  ${plugin_name}.plugin = "cordova-plugin-${plugin_id.replace('-native', '')}";
-  ${plugin_name}.pluginRef = "${plugin_name}";
-  ${plugin_name}.repo = "https://github.com/apache/cordova-plugin-${plugin_id.replace('-native', '')}";
-  ${plugin_name}.platforms = ["Amazon Fire OS", "Android", "iOS", "Windows"];
-  ${plugin_name} = __decorate([
+  {{plugin_name}}.prototype.show = function () { return cordova(this, "show", { "sync": true }, arguments); };
+  {{plugin_name}}.plugin_id = "{{plugin_name}}";
+  {{plugin_name}}.plugin = "cordova-plugin-{{plugin_id.replace('-native', '')}}";
+  {{plugin_name}}.pluginRef = "{{plugin_name}}";
+  {{plugin_name}}.repo = "https://github.com/apache/cordova-plugin-{{plugin_id.replace('-native', '')}}";
+  {{plugin_name}}.platforms = ["Amazon Fire OS", "Android", "iOS", "Windows"];
+  {{plugin_name}} = __decorate([
     Injectable()
-  ], ${plugin_name});
-  return ${plugin_name};
+  ], {{plugin_name}});
+  return {{plugin_name}};
 }(IonicNativePlugin));
-export { ${plugin_name} };
+export { {{plugin_name}} };
