@@ -1,0 +1,17 @@
+{
+  "name": "${plugin_id}",
+  "version": "1.0.0",
+  "description": "Ionic Custom Native - Native plugins for ionic apps",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \\"Error: no test specified\\" && exit 1"
+  },
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0",
+    "tslib": "^1.9.0"
+  },
+  "author": "ths",
+  "license": "ISC",
+  "typings": "index.d.ts"
+}
