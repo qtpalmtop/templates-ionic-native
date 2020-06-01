@@ -7,11 +7,11 @@ import { IonicNativePlugin } from '@ionic-native/core';
  * import { {{plugin_name}} } from '{{plugin_id}}';
  *
  * private 变量首字母小写
- * constructor(private {{plugin_name)}}: {{plugin_name}}) { }
+ * constructor(private {{plugin_name}}: {{plugin_name}}) { }
  *
  * ...
  * 这里变量首字母小写
- * this.{{plugin_name)}}.show();
+ * this.{{plugin_name}}.show();
  *
  * \`\`\`
  */
