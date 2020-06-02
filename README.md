@@ -1,2 +1,2 @@
 # templates-ionic-native
-ionic-native sdk模版
+ionic-native sdk插件模版
