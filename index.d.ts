@@ -4,7 +4,7 @@ import { {{plugin_name}} } from "./ngx";
  * @name {{plugin_name}}
  * @description This plugin just shows the toast demo.
  * @usage
- * \`\`\`typescript
+ * ```typescript
  * import { {{plugin_name}} } from '{{plugin_id}}';
  * private 变量首字母小写
  * constructor(private {{plugin_name}}: {{plugin_name}}) { }
@@ -13,7 +13,7 @@ import { {{plugin_name}} } from "./ngx";
  * 这里变量首字母小写
  * this.{{plugin_name}}.show();
  *
- * \`\`\`
+ * ```
  */
 export declare class {{plugin_name}}Original extends IonicNativePlugin {
   /**
