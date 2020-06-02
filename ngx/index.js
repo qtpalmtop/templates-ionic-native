@@ -25,7 +25,7 @@ var {{plugin_name}} = /** @class */ (function (_super) {
     return _super !== null && _super.apply(this, arguments) || this;
   }
   {{plugin_name}}.prototype.show = function () { return cordova(this, "show", { "sync": true }, arguments); };
-  {{plugin_name}}.plugin_id = "{{plugin_name}}";
+  {{plugin_name}}.pluginName = "{{plugin_name}}";
   {{plugin_name}}.plugin = "{{cordova_plugin_id}}";
   {{plugin_name}}.pluginRef = "{{plugin_name}}";
   {{plugin_name}}.repo = "{{plugin_github}}";
