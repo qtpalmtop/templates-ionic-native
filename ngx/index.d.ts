@@ -20,5 +20,7 @@ export declare class {{plugin_name}} extends IonicNativePlugin {
    * Shows the {{plugin_name}}
    */
   show(arg0, success, error): void;
+}
+
 
 
